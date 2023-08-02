@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;    
+}
+html{
+  height:100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(./imagenes/fondo.PNG);
+    background-size: cover;
+    height: 100vh;
+}
+footer{
+  margin-top: auto;
+}
+ h1{
+  font-size: 100px;
+  text-align: center;
+  margin: 50px auto;
+  color: rgb(45, 106, 163);
+  text-shadow:2px 4px 5px white ;
+
+}
+.titulo{
+ height: 300px;
+}
+footer{}
+h3{
+  font: 25px bold 'Times New Roman' ;
+  color: rgb(201, 192, 192);
+  padding: 5px 10px;
+  display: flex;
+  float: right;
+}
