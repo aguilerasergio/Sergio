@@ -4,31 +4,47 @@
   box-sizing: border-box;    
 }
 html{
-  height:100%;
+  height:100vh;
 }
+
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    background-image: url(./imagenes/fondo.PNG);
-    background-size: cover;
-    height: 100vh;
+  height: 100vh;
+  padding-top: 30px;
+  background: rgb(35, 35, 67) url(imagenes/Los\ Horneritos.jpg) no-repeat  fixed;
+}
+section{
+  border: 1px solid rgb(211, 206, 206);
+  position: absolute;
+  bottom: 0px;
+
 }
 footer{
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
 }
  h1{
   font-size: 100px;
   text-align: center;
-  margin: 50px auto;
   color: rgb(45, 106, 163);
   text-shadow:2px 4px 5px white ;
-
+  transition: transform 2s ease-in-out;
 }
-.titulo{
- height: 300px;
+h1:hover{
+  color: blueviolet;
+  transform: translatex(-20px);
 }
-footer{}
+.imagen{
+  height: 470px;
+  width: 520px;
+  border-radius: 10%;
+ position: absolute;
+ bottom: -1px;
+ left: 280px;
+ transition: transform 1s ease;
+}
+.imagen:hover{
+  transform: translatex(70px);
+}
 h3{
   font: 25px bold 'Times New Roman' ;
   color: rgb(201, 192, 192);
