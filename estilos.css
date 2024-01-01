@@ -13,7 +13,6 @@ body{
   background: rgb(35, 35, 67) url(imagenes/Los\ Horneritos.jpg) no-repeat  fixed;
 }
 section{
-  border: 1px solid rgb(211, 206, 206);
   position: absolute;
   bottom: 0px;
 
